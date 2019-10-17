@@ -1,10 +1,12 @@
+# here i used this script to get the screen shot from the sucuri scan of the web site 
+
 import webbrowser
 import random 
 from selenium import webdriver       
 import webbrowser, sys, pyperclip
 import time
 driver=webdriver.Chrome()
-text=(open("trackers.txt")).read()
+text=(open("trackers.txt")).read()                           //put the list of web site name here 
 pyperclip.copy(text)
 address = pyperclip.paste()
 j=1
