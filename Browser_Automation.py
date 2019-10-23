@@ -1,4 +1,4 @@
-# here i used this script to get the screen shot from the sucuri scan of the web site 
+# here i used this script to get the screen shot from the sucuri scan of the web site you can use any other web sites
 
 import webbrowser
 import random 
