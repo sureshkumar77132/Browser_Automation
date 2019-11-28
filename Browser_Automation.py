@@ -15,4 +15,4 @@ for i in address.split("\n"):
     driver.get('https://sitecheck.sucuri.net/results/' + i)  //put the link of the web site you want to get the result from
     time.sleep(10)
     driver.save_screenshot("screenshot-"+str(j)+".png")
-    j=j+1
+    j=j+2
