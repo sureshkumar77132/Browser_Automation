@@ -16,6 +16,3 @@ for i in address.split("\n"):
     time.sleep(10)
     driver.save_screenshot("screenshot-"+str(j)+".png")
     j=j+1
-
-
-
